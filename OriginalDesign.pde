@@ -2,14 +2,13 @@ void setup()
 {
 	size(400,400);
 	background(255);
-	framerate(10);
 }
 void draw()
 {
-   circlesRect();
+   circles();
 };
 //abstract design of the earth?
-void circlesRect()
+void circles()
 {
     fill(245, 12, 12,2);
     rect(random(0, 400),random(0, 400),random(0, 400),random(0, 400));

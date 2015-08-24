@@ -2,7 +2,7 @@ void setup()
 {
 	size(400,400);
 	background(255);
-	framerate(5);
+	framerate(1000);
 }
 void draw()
 {

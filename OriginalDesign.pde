@@ -6,10 +6,10 @@ void setup()
 }
 void draw()
 {
-   circles_rect();
+   circlesRect();
 };
 //abstract design of the earth?
-void circles_rect ()
+void circlesRect()
 {
     fill(245, 12, 12,2);
     rect(random(0, 400),random(0, 400),random(0, 400),random(0, 400));
